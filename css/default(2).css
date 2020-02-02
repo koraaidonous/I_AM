@@ -1,0 +1,169 @@
+body{
+    font-family: "Montserrat";
+    margin:0;
+    padding:0;
+    color:#141d1a;
+    background-color: white;
+    min-width:800px;
+}
+
+h3{
+    padding:0.5%;
+    text-align: center;
+    font-size: 30px;
+    color:#577734;
+}
+
+p{
+    text-align: center;
+    font-size:19px;
+}
+
+main{
+    min-height: 200px;
+}
+header{   
+    top:0;
+    width:100%;
+    margin:0;
+    padding:0;
+    height: 90px;
+    z-index: 1;
+    position: fixed;
+}
+form{
+    top:5%;
+    right: 10%;
+    margin:0;
+    padding:0;
+    height: 90px;
+    z-index: 1;
+    position: fixed;
+}
+form label{
+    font-size: 13px;
+}
+form input{
+    margin: 0 10px;
+    float: right;
+}
+form h6{
+    text-align: end;
+    padding: 10px 0 0;
+    text-decoration: underline;
+}
+.quote{
+    font-style: italic;
+}
+#logo{
+    width:200px;
+    margin: 8px 10px;
+    position: fixed;
+}
+#menu-icon{
+    position: fixed;
+    width: 70px;
+    top:0;
+    right: 0;
+    padding: 3%;
+    z-index: 1;
+}
+#menu-icon:hover{
+    cursor: pointer;
+}
+.icons img:hover{
+    opacity: 0.3;
+    transition: 0.5s;
+    color:"#fd626a";
+    background-color: "#fd626a";
+}
+#menu{
+    background-color: #e9f9d7;
+    position: fixed;
+    top:0;
+    right:0;
+    width: 30%;
+    height: 100%;
+}
+nav ul{
+    margin: 10% 0 0 10%;
+    list-style: none;
+    padding: 0 0 0 5%;
+}
+nav ul li{
+    margin: 0 0 4vh 0;
+}
+nav img{
+    width: 150px;
+    padding: 10px 35%;
+    display: block;
+    margin: 0 auto;
+}
+nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #f2a846;
+}
+nav ul li .active{
+    color: #f7ba6a;
+    text-decoration: underline;
+}
+#popup{
+    display: none;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    z-index:10;
+    background-color: rgba(0,0,0,0.8);    
+}
+.container{
+    margin: 0 auto;
+    padding:4%;
+    width:50%;
+    margin-top: 110px;
+}
+
+/*
+.flex{
+    display: flex;
+}
+*/
+#hero{
+    background: url("img/leaves.jpg");
+/*    background-color: antiquewhite;*/
+    position: relative;
+    top:23vh;
+    background-size:cover;
+    background-position: center;
+    height:90vh;
+    width: 100%;
+    z-index: -5;
+}
+
+/*DIARY*/
+.icons{
+    display: flex;
+    flex-wrap: wrap;    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icons div{
+    width: 30%;
+}
+.icons img{
+    width: 100%;
+    margin: auto 0;
+}
+.icons p{
+    margin: 0 0 15px;
+    padding: 0;
+    text-align: center;
+}
+footer{
+    background-image: url("img/footer_img.png");
+}
